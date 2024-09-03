@@ -11,7 +11,7 @@ model_path = 'mango_identification_model2.h5'
 model = tf.keras.models.load_model(model_path)
 
 # Define image dimensions based on model input
-img_height, img_width = 299, 299  # Update this to match your model's expected input
+img_height, img_width = 224, 224  # Update this to match your model's expected input
 
 # Define class labels
 class_labels = [

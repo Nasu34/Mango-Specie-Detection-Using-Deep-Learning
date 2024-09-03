@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Define the path to the model
-model_path = 'inception_v3_mango_leaves_model.keras'
+model_path = 'mango_identification_model2.h5'
 
 # Load the pre-trained model
 model = tf.keras.models.load_model(model_path)
